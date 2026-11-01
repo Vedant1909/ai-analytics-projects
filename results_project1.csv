@@ -1,0 +1,501 @@
+instruction,category,intent,keyword_pred,llm_pred,urgency,confidence,input_tokens,output_tokens
+I don't know how to get compensations,REFUND,get_refund,unknown,get_refund,medium,0.9,2619,28
+I need assistance checking my compensation status,REFUND,track_refund,unknown,track_refund,medium,0.9,2621,28
+need to set my new shipping address up,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.97,2619,33
+can uhelp me speaking with customer service,CONTACT,contact_customer_service,contact_customer_service,contact_human_agent,medium,0.85,2622,31
+I expect a fucking compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,get_refund,get_refund,high,0.9,2641,27
+assistance seeing in what cases can I request reimbursements,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.9,2627,30
+opdn {{Account Type}} account,ACCOUNT,create_account,unknown,switch_account,medium,0.7,2621,28
+how can i check the current status of my restitution,REFUND,track_refund,unknown,track_refund,medium,0.93,2621,28
+I do not know how to subscribe to the corporate newsletter,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.97,2628,31
+want help checking when will my product arrive,DELIVERY,delivery_period,delivery_period,delivery_period,medium,0.95,2620,29
+where can i order some of ur article,ORDER,place_order,place_order,place_order,low,0.9,2618,26
+i need assistance solving an error with payments,PAYMENT,payment_issue,payment_issue,payment_issue,medium,0.95,2621,29
+where can i get the invoice #12588,INVOICE,get_invoice,get_invoice,check_invoice,low,0.8,2620,28
+find bil #12588,INVOICE,check_invoice,unknown,check_invoice,low,0.9,2615,28
+whag do i need to do to cancel order {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2629,29
+help me to sign up to the corporate newsletter,SUBSCRIPTION,newsletter_subscription,create_account,newsletter_subscription,low,0.97,2624,31
+need assistance to find the fucking invoices from {{Person Name}},INVOICE,check_invoice,check_invoice,get_invoice,medium,0.9,2631,29
+how to swap several items of purchase {{Order Number}},ORDER,change_order,place_order,change_order,medium,0.95,2627,27
+I have to chat with a livbe agent,CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2621,31
+can you help me to open a freemium account?,ACCOUNT,create_account,unknown,create_account,medium,0.97,2621,27
+"I don't want the freemium account, I need help to close it",ACCOUNT,delete_account,unknown,delete_account,medium,0.95,2625,28
+canceling {{Account Type}} account,ACCOUNT,delete_account,cancel_order,delete_account,medium,0.93,2621,28
+"I have got to edit my bloody user, how could I do it?",ACCOUNT,edit_account,edit_account,edit_account,low,0.93,2627,27
+create account,ACCOUNT,create_account,create_account,create_account,low,0.9,2611,26
+I try to see in which cases can I request to be refunded,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.9,2625,30
+I would like to see when my delivery is going to arrive,DELIVERY,delivery_period,delivery_period,delivery_period,medium,0.93,2625,29
+i dont know what i need to do to find ibll #12588,INVOICE,check_invoice,unknown,check_invoice,low,0.9,2626,28
+can ya help me retrieve the pin code of my acocunt,ACCOUNT,recover_password,unknown,recover_password,medium,0.93,2628,28
+help me to  report issues with payment,PAYMENT,payment_issue,unknown,payment_issue,medium,0.95,2619,29
+I want to sign up to your corporate newsletter,SUBSCRIPTION,newsletter_subscription,create_account,newsletter_subscription,low,0.97,2624,31
+help me to see what delivery options I can choose,DELIVERY,delivery_options,delivery_options,delivery_options,low,0.97,2622,28
+want help to receive ur company newsletter,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.97,2621,31
+can i lodge a consumer complaint against ur business,FEEDBACK,complaint,complaint,complaint,medium,0.93,2625,27
+I need help with cancelling purhase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2628,29
+see early exit fee,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.9,2615,32
+i dont know what to do to recover myuser account pin,ACCOUNT,recover_password,unknown,recover_password,medium,0.95,2625,28
+need help to check order {{Order Number}} current status,ORDER,track_order,unknown,track_order,medium,0.97,2624,27
+I don't know how to delete my standard account,ACCOUNT,delete_account,delete_account,delete_account,low,0.97,2621,27
+how to see the early exit fees?,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.93,2619,32
+need help chatting with an agent,CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2618,31
+could you help me leaving my feedback?,FEEDBACK,review,review,review,low,0.97,2621,24
+I'm trying to see the early exit fers,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.9,2622,32
+I do not know what to do to call customer service,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.9,2621,30
+"I have put my old address by mistake, how can I update it?",SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.93,2626,31
+"I cannot open an account, how to report a sign-up issue?",ACCOUNT,registration_problems,create_account,registration_problems,medium,0.93,2628,29
+I need assistance downloading invoice #12588,INVOICE,get_invoice,get_invoice,get_invoice,medium,0.9,2623,29
+help me to check the invoice from {{Person Name}},INVOICE,check_invoice,check_invoice,check_invoice,low,0.8,2626,28
+I'm waiting for a rebateof {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,get_refund,track_refund,medium,0.85,2642,28
+where can I receive a restitution of money?,REFUND,get_refund,unknown,get_refund,low,0.9,2621,27
+how do I use the {{Account Type}} account?,ACCOUNT,switch_account,unknown,switch_account,low,0.9,2624,27
+I have got to check the invoices from {{Person Name}},INVOICE,check_invoice,check_invoice,check_invoice,low,0.9,2627,28
+do you shp to {{Delivery City}}?,DELIVERY,delivery_options,unknown,delivery_options,low,0.8,2624,28
+can i see the status of purchase {{Order Number}},ORDER,track_order,place_order,track_order,medium,0.97,2626,27
+I don't know how I can check the cancellation fee,CANCEL,check_cancellation_fee,check_cancellation_fee,check_cancellation_fee,low,0.95,2624,32
+i  cannot enter a shipping address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,high,0.8,2621,32
+where do I see the termination penalties?,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.93,2620,32
+"I do not want this item, cancel order {{Order Number}}",ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2628,29
+I don't know what I need to do to get the bill #85632,INVOICE,get_invoice,check_invoice,get_invoice,low,0.85,2626,28
+"I have to cancel my subscription to the newsletter, help me",SUBSCRIPTION,newsletter_subscription,cancel_order,newsletter_subscription,low,0.93,2628,31
+I would like to lodge a consumer claim against your business,FEEDBACK,complaint,unknown,complaint,medium,0.93,2625,27
+can I see how long the shipping takes?,DELIVERY,delivery_period,delivery_period,delivery_period,low,0.93,2621,28
+I want assistance to open a {{Account Category}} account for my fiance,ACCOUNT,create_account,unknown,create_account,medium,0.95,2631,27
+i dont know what i have to do to contact a person,CONTACT,contact_human_agent,contact_customer_service,contact_human_agent,medium,0.95,2623,31
+I need help tl give a quick look at the bill #85632,INVOICE,check_invoice,check_invoice,check_invoice,low,0.93,2626,28
+I'm trying to enter the secodnary shipping address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.9,2626,33
+where do I get a reimbursement?,REFUND,get_refund,get_refund,get_refund,medium,0.85,2620,28
+want help to deletd a damn article from order {{Order Number}},ORDER,change_order,unknown,cancel_order,medium,0.6,2629,29
+can you help me to send some feedback for a product?,FEEDBACK,review,review,review,low,0.95,2623,24
+problem with {{Account Type}} account terminations,ACCOUNT,delete_account,unknown,delete_account,medium,0.8,2624,28
+I cannot afford purchase {{Order Number}},ORDER,cancel_order,place_order,payment_issue,high,0.6,2626,28
+cancel purchase  {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2624,29
+i do not know how to see what delivery methods i have,DELIVERY,delivery_options,delivery_options,delivery_options,low,0.93,2624,28
+"I have got to swap something of order {{Order Number}}, help em",ORDER,change_order,unknown,change_order,medium,0.93,2629,27
+i have got to see the accepted payment options,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.95,2621,30
+assistance to get my bills from {{Person Name}},INVOICE,get_invoice,check_invoice,get_invoice,medium,0.9,2626,29
+can I pay with PayPal?,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.95,2619,30
+I do not knw how I can locate the bills from {{Person Name}},INVOICE,check_invoice,check_invoice,get_invoice,low,0.85,2631,28
+support submitting the deoivery address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.85,2619,33
+is there a way to leave some feedback for your products?,FEEDBACK,review,review,review,low,0.93,2624,24
+want assistance canceling purchase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2627,29
+can uhelp me to chat with somebody,CONTACT,contact_human_agent,unknown,contact_human_agent,medium,0.95,2622,31
+shipnents to {{Delivery Country}},DELIVERY,delivery_options,unknown,delivery_options,low,0.6,2624,28
+I need assistance seeing my reimbursement current status,REFUND,track_refund,get_refund,track_refund,medium,0.95,2625,28
+need to check ur refund policy can i get some help,REFUND,check_refund_policy,check_refund_policy,check_refund_policy,low,0.95,2623,30
+I want help changing the bloody delivery address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.95,2622,31
+I don't know what to do to change to the {{Account Category}} account,ACCOUNT,switch_account,switch_account,switch_account,low,0.9,2629,27
+tghere is a problem trying to change the delivery address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.9,2625,31
+"I can't pay, assistance reporting troubles with payment",PAYMENT,payment_issue,payment_issue,payment_issue,high,0.95,2627,28
+updating info on {{Account Type}} account,ACCOUNT,edit_account,unknown,edit_account,low,0.93,2622,27
+how do I report a problem with payments?,PAYMENT,payment_issue,unknown,payment_issue,medium,0.9,2620,29
+where to find bill #12588?,INVOICE,check_invoice,check_invoice,check_invoice,low,0.93,2618,28
+assistance to shop some products,ORDER,place_order,unknown,place_order,low,0.9,2617,26
+"I have not signed up yet, help creating a gold account",ACCOUNT,create_account,unknown,create_account,medium,0.95,2625,27
+why I cannot submit my shipping address valid,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.85,2623,33
+I am trying to make a fucking consumer complaint,FEEDBACK,complaint,complaint,complaint,high,0.95,2625,26
+I need information about the removal of a standard account,ACCOUNT,delete_account,unknown,delete_account,low,0.95,2621,27
+seeing termination penalties,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.9,2617,32
+assistance seeing how long it takes for my parcel to arrive,DELIVERY,delivery_period,delivery_period,delivery_period,medium,0.93,2629,29
+how to recover the key of my user account?,ACCOUNT,recover_password,unknown,recover_password,medium,0.93,2620,28
+I'm trying to contact customer service,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,medium,0.9,2620,31
+update {{Account Type}} account,ACCOUNT,edit_account,unknown,edit_account,low,0.8,2619,27
+I expect a rebate of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,get_refund,get_refund,medium,0.9,2638,28
+"I have to see the status of my rebate, how to do it?",REFUND,track_refund,unknown,track_refund,medium,0.93,2626,28
+can you help me receive goddamn compensations of money?,REFUND,get_refund,unknown,get_refund,medium,0.9,2625,28
+can you tell me about the subscription to your newsletter?,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.92,2626,31
+I do not know what I have to do to speak to a live agent,CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2626,31
+editing info on premium account,ACCOUNT,edit_account,edit_account,edit_account,low,0.93,2616,27
+where to check the current status of order {{Order Number}}?,ORDER,track_order,unknown,track_order,low,0.97,2626,26
+I need help to talk to an assistant,CONTACT,contact_human_agent,unknown,contact_human_agent,medium,0.93,2620,31
+editing information on {{Account Type}} account,ACCOUNT,edit_account,edit_account,edit_account,low,0.93,2622,27
+where to inform of a trouble with payment ?,PAYMENT,payment_issue,unknown,payment_issue,medium,0.93,2623,29
+I watn help to check in what cases can I ask for a refund,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.95,2627,30
+"I cannot remember my profile PIN code, how to reset it?",ACCOUNT,recover_password,recover_password,recover_password,medium,0.93,2629,28
+I have got to sign up to your newsletter,SUBSCRIPTION,newsletter_subscription,create_account,newsletter_subscription,low,0.97,2622,31
+why I cannot set up the delivery address valid,SHIPPING,set_up_shipping_address,set_up_shipping_address,set_up_shipping_address,medium,0.8,2623,33
+nneed to submit my new delivery address how could i do it,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.93,2626,33
+i need assistance informing of problems with online payment,PAYMENT,payment_issue,unknown,payment_issue,medium,0.95,2623,29
+ser the bill #85632,INVOICE,check_invoice,check_invoice,check_invoice,low,0.9,2617,28
+can I send some feedback for a product?,FEEDBACK,review,review,review,low,0.92,2620,24
+assistance checking the withdrawal penalty,CANCEL,check_cancellation_fee,check_cancellation_fee,check_cancellation_fee,medium,0.85,2623,33
+there are problems setting my secondary shipping address up,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.95,2624,33
+I need assistancde cancelling order {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2628,29
+"I don't need my platinum account, help cancelling it",ACCOUNT,delete_account,cancel_order,delete_account,medium,0.93,2625,28
+I don't know how to contact a person,CONTACT,contact_human_agent,contact_customer_service,contact_human_agent,medium,0.95,2619,31
+I need to recover my account PIN,ACCOUNT,recover_password,unknown,recover_password,medium,0.95,2619,28
+modify order {{Order Number}},ORDER,change_order,change_order,change_order,medium,0.93,2620,27
+I cannot track the reimbursement,REFUND,track_refund,get_refund,track_refund,medium,0.93,2620,28
+i need help to unsubscribe to ur company newsletter,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.97,2627,31
+there are problems trying to correct the address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.9,2620,31
+edit information on standard account,ACCOUNT,edit_account,edit_account,edit_account,low,0.95,2616,27
+ETA of order {{Order Number}},ORDER,track_order,delivery_period,track_order,medium,0.9,2622,27
+I do not know how to leave my feedback for a product,FEEDBACK,review,review,review,low,0.93,2624,24
+will you show me at what time I can reach customer service?,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.97,2624,30
+corrrect order {{Order Number}},ORDER,change_order,unknown,change_order,medium,0.9,2622,27
+how do I check how long it takes for the product to arrive?,DELIVERY,delivery_period,delivery_period,delivery_period,low,0.95,2626,28
+i have got to correct the address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.9,2617,31
+rebating  {{Refund Amount}} dollars,REFUND,get_refund,get_refund,get_refund,medium,0.9,2626,28
+need to infomr of an error with registrations,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2621,29
+there is a problem submitting the secondary delivery address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.93,2625,33
+modify details on {{Account Type}} account,ACCOUNT,edit_account,delivery_period,edit_account,low,0.93,2622,27
+I need help seeing your money back guarantee,REFUND,check_refund_policy,check_refund_policy,check_refund_policy,low,0.85,2622,30
+I have got to cancel my company damn newsletter subscription,SUBSCRIPTION,newsletter_subscription,cancel_order,newsletter_subscription,low,0.9,2627,31
+need help to swap some products of purchase {{Order Number}},ORDER,change_order,place_order,change_order,medium,0.95,2628,27
+need assistance seeing ur available payment methods,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2623,30
+I need assistance seeing how soon can I expect my parcel,DELIVERY,delivery_period,delivery_period,delivery_period,low,0.93,2628,28
+i dont know what i need to do to remove the {{Account Category}} account,ACCOUNT,delete_account,unknown,delete_account,low,0.93,2631,27
+I have got to notify of an issue with signup,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2622,29
+where can I see the temrination fees?,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.93,2620,32
+assistance to recover my acconut key,ACCOUNT,recover_password,unknown,recover_password,medium,0.93,2620,28
+I need help to modify order {{Order Number}},ORDER,change_order,change_order,change_order,medium,0.93,2624,27
+"I doln't want order {{Order Number}}, can you cancel it?",ORDER,cancel_order,cancel_order,cancel_order,medium,0.95,2631,29
+create new {{Account Type}} account for daughter,ACCOUNT,create_account,create_account,create_account,medium,0.93,2624,27
+"I want to check the termination fee , help me",CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.93,2621,32
+i want assistance getting the  bloody bill from {{Person Name}},INVOICE,get_invoice,check_invoice,get_invoice,medium,0.9,2632,29
+can I leave feedback about a servic?,FEEDBACK,review,review,review,low,0.93,2621,24
+I have to take a  quick look at my invoice from {{Person Name}},INVOICE,check_invoice,check_invoice,check_invoice,low,0.85,2632,28
+i want assistance requesting reimbursements,REFUND,get_refund,get_refund,get_refund,medium,0.93,2622,28
+report erroprs with sign-up,ACCOUNT,registration_problems,unknown,registration_problems,medium,0.93,2619,29
+I want assistance changing a product of order {{Order Number}},ORDER,change_order,unknown,change_order,medium,0.95,2628,27
+i need assistance to edit the personal details,ACCOUNT,edit_account,delivery_period,edit_account,low,0.95,2621,27
+i dont know what i need to do to download the bill #85632,INVOICE,get_invoice,get_invoice,get_invoice,low,0.9,2626,28
+help me shop several of your product,ORDER,place_order,unknown,place_order,low,0.9,2617,26
+want assistance to cancel order {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2626,29
+help seeing in what cases can i ask for a refund,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.93,2625,30
+I have to correct my delivery address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.95,2619,31
+can udirect ot me somebody,CONTACT,contact_human_agent,unknown,contact_human_agent,medium,0.97,2619,31
+how could I cancel purchase {{Order Number}}?,ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2627,29
+see order {{Order Number}} status,ORDER,track_order,unknown,track_order,low,0.97,2620,26
+need assistance to earn an item,ORDER,place_order,unknown,get_refund,low,0.4,2618,27
+I need assistance with canceling purchase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2629,29
+"I have to check the options for shipping, how could I do it?",DELIVERY,delivery_options,unknown,delivery_options,low,0.95,2626,28
+i want assistance to restore the access key of my account,ACCOUNT,recover_password,unknown,recover_password,medium,0.93,2623,28
+I'm trying to see the early exit fees,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.93,2622,32
+help me to list ur available payment options,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2619,30
+I can't report errors with signup,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.93,2618,29
+i want help leaving feedback about a service,FEEDBACK,review,review,review,low,0.9,2621,24
+how do i change some items of order {{Order Number}},ORDER,change_order,unknown,change_order,medium,0.97,2625,27
+"I need to edit my personal information, will you help me?",ACCOUNT,edit_account,edit_account,edit_account,low,0.95,2624,27
+help me download my bills from {{Person Name}},INVOICE,get_invoice,get_invoice,get_invoice,medium,0.93,2624,29
+i have to correct order {{Order Number}},ORDER,change_order,unknown,change_order,medium,0.85,2623,27
+i cannot pay for my last item cancel order {{Order Number}},ORDER,cancel_order,cancel_order,payment_issue,high,0.6,2631,28
+"I cannot understand you, I have to contact a person",CONTACT,contact_human_agent,contact_customer_service,contact_human_agent,high,0.97,2624,30
+help using the platinum profile,ACCOUNT,switch_account,edit_account,edit_account,low,0.5,2617,27
+"I have to list the payment options, I need assistance",PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.9,2623,30
+I am trying to hcange some articles of purchase {{Order Number}},ORDER,change_order,place_order,change_order,medium,0.95,2632,27
+can I see at what time I can reach customer support ?,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.97,2624,30
+assistance checking the status of order {{Order Number}},ORDER,track_order,unknown,track_order,low,0.97,2626,26
+can uhelp me to see in which cases can i ask to be refunded,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.9,2630,30
+can you show me in what cases can I ask to be refunded?,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.95,2627,30
+I have got to change my personal information,ACCOUNT,edit_account,unknown,edit_account,low,0.93,2618,27
+want assistance contacting an operator,CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2619,31
+is it possible to send some feedback about your company?,FEEDBACK,review,review,review,low,0.93,2623,24
+i want help informing of issues with online payment,PAYMENT,payment_issue,unknown,payment_issue,medium,0.95,2621,29
+filing customer complaint against ur company,FEEDBACK,complaint,complaint,complaint,medium,0.95,2620,27
+I need assistance to recover the PIN code of my account,ACCOUNT,recover_password,unknown,recover_password,medium,0.97,2625,28
+want assistance to leave a review for your prducts,FEEDBACK,review,review,review,low,0.97,2623,24
+I want assistance to remove a premium accojnt,ACCOUNT,delete_account,unknown,delete_account,medium,0.95,2624,28
+how to get a reimbursement?,REFUND,get_refund,get_refund,get_refund,low,0.9,2619,27
+help me to check the current status of purchase {{Order Number}},ORDER,track_order,place_order,track_order,low,0.97,2628,26
+how do i use the {{Account Type}} account,ACCOUNT,switch_account,unknown,switch_account,low,0.85,2623,27
+how to lodge a complaint against your organization?,FEEDBACK,complaint,complaint,complaint,medium,0.95,2623,27
+how could I purchase several products?,ORDER,place_order,place_order,place_order,low,0.92,2618,26
+"I want to see the cancellation penalty, help me",CANCEL,check_cancellation_fee,check_cancellation_fee,check_cancellation_fee,medium,0.93,2624,33
+I have got to make an order,ORDER,place_order,place_order,place_order,low,0.95,2616,26
+"I have got to talk with customer support, I need assistance",CONTACT,contact_customer_service,contact_customer_service,contact_human_agent,medium,0.9,2625,31
+I'm waitng for a reimbursement of {{Currency Symbol}}{{Refund Amount}} has it been processed,REFUND,track_refund,get_refund,track_refund,medium,0.95,2649,28
+can you help me to set up a different delivery address?,SHIPPING,set_up_shipping_address,set_up_shipping_address,set_up_shipping_address,medium,0.97,2623,33
+"I have to check the shipping methods, how can I do it?",DELIVERY,delivery_options,delivery_options,delivery_options,low,0.95,2626,28
+I need assistance with opening my premium account,ACCOUNT,create_account,unknown,create_account,medium,0.93,2621,27
+check bill from {{Person Name}},INVOICE,check_invoice,check_invoice,check_invoice,low,0.85,2621,28
+I want assistance listing your allowed payment methods,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2624,30
+I want help to submit feedback for your products,FEEDBACK,review,review,review,low,0.93,2621,24
+how can I file a complaint against your organization?,FEEDBACK,complaint,complaint,complaint,medium,0.95,2622,27
+where can I check the bill #85632?,INVOICE,check_invoice,check_invoice,check_invoice,low,0.95,2620,28
+can I contact customer assistance?,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.93,2619,30
+need to see the ETA of purchase {{Order Number}} how to do it,ORDER,track_order,place_order,track_order,medium,0.95,2632,27
+I want help to check how soon can I expect my product,DELIVERY,delivery_period,delivery_period,delivery_period,medium,0.95,2623,29
+help locating my invoice #00108,INVOICE,check_invoice,check_invoice,check_invoice,low,0.9,2619,28
+"I want to list the allowed payment methods, how to do it?",PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2627,30
+how to check at what time I can  contact customer service?,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.95,2624,30
+can I check what hours I can contact customer service?,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.97,2623,30
+create premium account for wife,ACCOUNT,create_account,create_account,create_account,low,0.9,2616,26
+help to check what shipment options are there,DELIVERY,delivery_options,unknown,delivery_options,low,0.95,2619,28
+I can't find anything about the withdrawal charges,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,medium,0.6,2624,33
+i do not know how to request a rebate of money,REFUND,get_refund,unknown,get_refund,medium,0.93,2622,28
+od ya deliver to {{Delivery Country}},DELIVERY,delivery_options,unknown,delivery_options,low,0.8,2626,28
+I don't know how to locate order {{Order Number}},ORDER,track_order,unknown,track_order,medium,0.85,2626,27
+could you show me in what situations can I ask for refunds?,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.95,2626,30
+"I need to retrieve my user PIN, could you help me?",ACCOUNT,recover_password,unknown,recover_password,medium,0.93,2627,28
+I'm calling to leave feedback for ur products,FEEDBACK,review,contact_customer_service,review,low,0.95,2624,24
+"I want to see how soon can I expect my parcel, how to do it?",DELIVERY,delivery_period,delivery_period,delivery_period,low,0.93,2630,28
+need help ordering some products,ORDER,place_order,unknown,place_order,low,0.95,2616,26
+I do not know how to report signup issues,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.93,2620,29
+help cancelling my newsletter subscription,SUBSCRIPTION,newsletter_subscription,cancel_order,newsletter_subscription,low,0.95,2622,31
+I have to see how soon can I expect the purchase,DELIVERY,delivery_period,place_order,delivery_period,low,0.9,2624,28
+track order {{Order Number}},ORDER,track_order,track_order,track_order,low,0.97,2619,26
+i cant report a problem with registrations,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.92,2620,29
+I'm trying to retrieve the password of my profile,ACCOUNT,recover_password,recover_password,recover_password,medium,0.95,2625,28
+wanna change the info on my account can i get some help,ACCOUNT,edit_account,unknown,edit_account,low,0.95,2623,27
+could ya help me changing an item of order {{Order Number}},ORDER,change_order,unknown,change_order,medium,0.95,2628,27
+I want help to create a platinum account for my fiance,ACCOUNT,create_account,create_account,create_account,medium,0.95,2624,27
+i need assistance making a claim against ur company,FEEDBACK,complaint,unknown,complaint,medium,0.9,2622,27
+where can i shop something,ORDER,place_order,unknown,place_order,low,0.6,2615,26
+check current status of purchase {{Order Number}},ORDER,track_order,place_order,track_order,low,0.97,2624,26
+need help to download my invoice #37777,INVOICE,get_invoice,get_invoice,get_invoice,medium,0.93,2620,29
+I need help acquiring a few of your article,ORDER,place_order,unknown,place_order,medium,0.9,2621,27
+where could I see the early exit penalties?,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.93,2621,32
+need help touse the {{Account Type}} account,ACCOUNT,switch_account,unknown,switch_account,medium,0.9,2623,28
+I need assistance listing your vaailable payment modalities,PAYMENT,check_payment_methods,unknown,check_payment_methods,low,0.97,2626,30
+i have to check the invoice #37777,INVOICE,check_invoice,check_invoice,check_invoice,low,0.95,2620,28
+i dont kno how to inform of an error with a registration,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2625,29
+I don't know what to do to cancel purchase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.96,2631,29
+I am trying to purchase several of your article,ORDER,place_order,place_order,place_order,low,0.93,2621,26
+were do i report troubles with payment,PAYMENT,payment_issue,unknown,payment_issue,medium,0.9,2619,29
+reporting payment issue,PAYMENT,payment_issue,payment_issue,payment_issue,medium,0.9,2616,29
+is it possible to speak to goddamn customer service?,CONTACT,contact_customer_service,contact_customer_service,contact_human_agent,high,0.9,2625,30
+help filing a damn customer reclamation,FEEDBACK,complaint,unknown,complaint,medium,0.93,2621,27
+i want help resetting my user pass,ACCOUNT,recover_password,recover_password,recover_password,medium,0.97,2619,28
+where do I correct my address?,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.9,2617,31
+i want help requesting a reimbursement of moey,REFUND,get_refund,get_refund,get_refund,medium,0.9,2624,28
+I cannot create a freemium accounmt for my daughter,ACCOUNT,create_account,create_account,create_account,medium,0.9,2627,27
+why I cannot enter my seocndary shipping address valid,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.9,2627,33
+is it possible to lodge a complaint,FEEDBACK,complaint,complaint,complaint,low,0.92,2621,26
+I don't know what to do to inform of a registration error,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.93,2624,29
+icall to file a complaint against ur company,FEEDBACK,complaint,contact_customer_service,complaint,medium,0.95,2621,27
+I don't know how I can receive reimbursements of money,REFUND,get_refund,get_refund,get_refund,low,0.9,2625,27
+where do i see the ETA of the roder {{Order Number}},ORDER,track_order,delivery_period,track_order,low,0.93,2629,26
+i want help seeing in what cases can i ask to be refunded,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.9,2628,30
+can you help me purchasing something?,ORDER,place_order,unknown,place_order,low,0.9,2619,26
+i have got to see the available payment modalities,PAYMENT,check_payment_methods,unknown,check_payment_methods,low,0.97,2621,30
+want assistance to make a consumer reclamation,FEEDBACK,complaint,unknown,complaint,medium,0.93,2623,27
+where can I see what shipping methods I can choose?,DELIVERY,delivery_options,delivery_options,delivery_options,low,0.95,2624,28
+I'm having errors registering,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2617,29
+want assistance to see what payment options you accept,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2622,30
+I do not know what to do to notify of payment problems,PAYMENT,payment_issue,payment_issue,payment_issue,medium,0.93,2624,29
+help me check in which cases canI request reimbursements,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.9,2624,30
+"you are not being helpful, help chatting with a human agent",CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2626,31
+new {{Account Type}} acount,ACCOUNT,create_account,unknown,create_account,medium,0.85,2620,27
+I want help checking what methods for delivery are available,DELIVERY,delivery_options,unknown,delivery_options,low,0.95,2623,28
+I do not know what I need to do to locate order {{Order Number}},ORDER,track_order,unknown,track_order,medium,0.93,2630,27
+i try to request a restitution of money,REFUND,get_refund,unknown,get_refund,medium,0.93,2619,28
+how do i purchase an item,ORDER,place_order,place_order,place_order,low,0.95,2617,26
+rebating  {{Currency Symbol}}{{Refund Amount}},REFUND,get_refund,get_refund,get_refund,medium,0.9,2634,28
+I want assistance to notify of a problem with a registration,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2625,29
+how to get my bill from {{Person Name}},INVOICE,get_invoice,check_invoice,get_invoice,medium,0.9,2624,29
+I need help seeing how long reimbursements usually take,REFUND,check_refund_policy,get_refund,delivery_period,low,0.55,2625,28
+i have paid {{Currency Symbol}}{{Refund Amount}} for this purchase help receiving a rebate,REFUND,get_refund,get_refund,get_refund,medium,0.9,2647,28
+how can I get infomation about my {{Account Type}} account cancellation?,ACCOUNT,delete_account,cancel_order,delete_account,medium,0.8,2632,28
+I do not know how I can leave my feedback for your services,FEEDBACK,review,review,review,low,0.95,2625,24
+i dont know what to do to cancel the platinum account,ACCOUNT,delete_account,cancel_order,delete_account,medium,0.9,2625,28
+help me seeing how long refunds take,REFUND,check_refund_policy,get_refund,delivery_period,low,0.6,2620,28
+I have a problem submitting the new delivery address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.92,2623,33
+is it possible to report issues with signup?,ACCOUNT,registration_problems,registration_problems,registration_problems,low,0.9,2621,28
+help to cancel my subscription to ur corporate newsletter,SUBSCRIPTION,newsletter_subscription,cancel_order,newsletter_subscription,low,0.93,2628,31
+I want information about a forgotten PIN code,ACCOUNT,recover_password,recover_password,recover_password,medium,0.9,2622,28
+semd me bill #00108,INVOICE,get_invoice,check_invoice,get_invoice,medium,0.85,2617,29
+how to switch to the {{Account Type}} account,ACCOUNT,switch_account,switch_account,switch_account,medium,0.95,2624,28
+how to get the bill from {{Person Name}}?,INVOICE,get_invoice,check_invoice,get_invoice,low,0.9,2625,28
+send me bill #12588,INVOICE,get_invoice,check_invoice,get_invoice,medium,0.85,2616,29
+i don know what to do to buy some of ur product,ORDER,place_order,place_order,place_order,low,0.93,2623,26
+"I expect a refund of {{Refund Amount}} dollars, has it been processed?",REFUND,track_refund,get_refund,track_refund,medium,0.93,2636,28
+need help to check the available payment modaliites,PAYMENT,check_payment_methods,unknown,check_payment_methods,low,0.97,2621,30
+"you are not helpful, can I speak with a person?",CONTACT,contact_human_agent,unknown,contact_human_agent,high,0.97,2624,30
+there is an ixsue setting my shipping address up,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.93,2624,33
+i need help to inform of issues with online payments,PAYMENT,payment_issue,unknown,payment_issue,medium,0.95,2622,29
+i do not know how to unsubscribe from the company newsletter,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.97,2628,31
+I'm waiting for a compensation of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,get_refund,track_refund,medium,0.8,2642,28
+is it possible to buy some items?,ORDER,place_order,place_order,place_order,low,0.9,2619,26
+can i place an order from {{Delivery Country}},DELIVERY,delivery_options,place_order,place_order,low,0.9,2625,26
+"I expect a refund of {{Currency Symbol}}{{Refund Amount}}, has it been processed?",REFUND,track_refund,get_refund,track_refund,medium,0.93,2644,28
+I want help to use the {{Account Category}} account,ACCOUNT,switch_account,unknown,switch_account,medium,0.9,2624,28
+i dont know how i can contact customer assistance,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.93,2623,30
+I have to file a customer reclamation against your business,FEEDBACK,complaint,unknown,complaint,medium,0.93,2623,27
+i do not know how i could create a {{Account Type}} account,ACCOUNT,create_account,create_account,create_account,low,0.95,2627,26
+"I want to see how soon can I expect my order, how to do it?",DELIVERY,delivery_period,delivery_period,delivery_period,low,0.85,2628,28
+deliveries to {{Delivery City}},DELIVERY,delivery_options,unknown,delivery_options,low,0.6,2623,28
+need help to see in which cases can I request my money bac,REFUND,check_refund_policy,unknown,check_refund_policy,low,0.85,2624,30
+I have to see your refund policy,REFUND,check_refund_policy,check_refund_policy,check_refund_policy,low,0.93,2618,30
+i need help to solve problems with online payment,PAYMENT,payment_issue,unknown,payment_issue,medium,0.9,2621,29
+help canceling my standard account,ACCOUNT,delete_account,cancel_order,delete_account,medium,0.9,2617,28
+how to inform of an error with a signup?,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.93,2621,29
+"I have to report an issue with online payments, help me",PAYMENT,payment_issue,unknown,payment_issue,medium,0.9,2623,29
+help seeing in what cases can I request to be refunded,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.9,2625,30
+help to get my bills from {{Person Name}},INVOICE,get_invoice,check_invoice,get_invoice,medium,0.9,2624,29
+do you have an e-mail to send feedback about your company?,FEEDBACK,review,review,review,low,0.85,2626,24
+need assistance listing your accepted payment options,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2622,30
+i need help informing of registration errors,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2619,29
+where to unsubscribe from the fucking corporate newsletter,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.97,2629,31
+help making a customer reclamation against your organization,FEEDBACK,complaint,unknown,complaint,medium,0.95,2622,27
+i expect a compensation of {{Refund Amount}} dollars,REFUND,track_refund,get_refund,get_refund,medium,0.9,2630,28
+how to update the shipping address?,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.9,2618,31
+what do i need to do to use the {{Account Category}} account,ACCOUNT,switch_account,unknown,switch_account,low,0.9,2627,27
+"I nede to see the early exit fees, how can I do it?",CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.92,2627,32
+change data on {{Account Category}} account,ACCOUNT,edit_account,unknown,edit_account,low,0.93,2621,27
+checking bill #00108,INVOICE,check_invoice,check_invoice,check_invoice,low,0.9,2616,28
+is it possible to place an order from {{Delivery Country}}?,DELIVERY,delivery_options,place_order,place_order,low,0.7,2629,26
+how acn I chat with somebody?,CONTACT,contact_human_agent,unknown,contact_human_agent,low,0.95,2620,30
+i dont know what to do to reset the key of my user account,ACCOUNT,recover_password,recover_password,recover_password,medium,0.93,2625,28
+I need help to talk to custmoer service,CONTACT,contact_customer_service,unknown,contact_human_agent,medium,0.85,2621,31
+help me to cancel purchase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2626,29
+i need help changing a product of purchase {{Order Number}},ORDER,change_order,place_order,change_order,medium,0.95,2628,27
+I need to switch a product of order {{Order Number}},ORDER,change_order,switch_account,change_order,medium,0.93,2626,27
+"I have to talk to customer support, I need help",CONTACT,contact_customer_service,contact_customer_service,contact_human_agent,medium,0.85,2622,31
+I want to file a consumer complaint,FEEDBACK,complaint,complaint,complaint,medium,0.93,2620,27
+"I cannot register, how do I notify of signup errors?",ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2626,29
+i want help to notify of a problem with sign-up,ACCOUNT,registration_problems,unknown,registration_problems,medium,0.95,2624,29
+help me cancel the {{Account Type}} account,ACCOUNT,delete_account,cancel_order,delete_account,medium,0.93,2624,28
+show me your payment options,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2615,30
+there are troubles editing my shipping address,SHIPPING,change_shipping_address,edit_account,change_shipping_address,medium,0.9,2621,31
+can you show me what bloody methods for delivery are there?,DELIVERY,delivery_options,unknown,delivery_options,low,0.95,2626,28
+could you help me retrieving my user profile PIN code?,ACCOUNT,recover_password,edit_account,recover_password,medium,0.93,2626,28
+want help to retrieve my pin,ACCOUNT,recover_password,unknown,recover_password,medium,0.9,2619,28
+I don't know how to chat with an agent,CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2621,31
+i need support trying to modify the address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.93,2619,31
+need assistance to enter my new shipping address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.93,2622,33
+I can't reset my user PIN,ACCOUNT,recover_password,recover_password,recover_password,medium,0.93,2619,28
+open gold account for wife,ACCOUNT,create_account,unknown,create_account,low,0.93,2616,26
+correcting information on {{Account Category}} account,ACCOUNT,edit_account,unknown,edit_account,low,0.9,2623,27
+where can I see when my damn package is going to arrive?,DELIVERY,delivery_period,delivery_period,track_order,medium,0.82,2625,27
+leave review about a service,FEEDBACK,review,review,review,low,0.95,2615,24
+were can i cancel purchase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.96,2626,29
+I have to check how sion can I expect the package,DELIVERY,delivery_period,unknown,delivery_period,medium,0.9,2622,29
+what is order {{Order Number}} crrent status,ORDER,track_order,unknown,track_order,low,0.97,2624,26
+help me see your azllowed payment modalities,PAYMENT,check_payment_methods,unknown,check_payment_methods,low,0.97,2622,30
+could you help me deleting a platinum account?,ACCOUNT,delete_account,unknown,delete_account,medium,0.95,2622,28
+i have a problem setting up my secondary shipping address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.93,2625,33
+problem with {{Account Category}} acount deletions,ACCOUNT,delete_account,unknown,delete_account,medium,0.85,2625,28
+what do I need to do to write an opinion for your products?,FEEDBACK,review,review,review,low,0.95,2625,24
+what do i need to do to talk to someone,CONTACT,contact_human_agent,unknown,contact_human_agent,medium,0.95,2621,31
+what do I have to do to see the allowed payment methods?,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2626,30
+i do not know what i need to do to get my invoice #12588,INVOICE,get_invoice,get_invoice,get_invoice,medium,0.8,2627,29
+"I do not need the {{Account Category}} account, I have got to delete it",ACCOUNT,delete_account,delete_account,delete_account,medium,0.95,2631,28
+where can I see the withdrawal fees?,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.7,2622,32
+there is an issue trying to correct the address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.85,2621,31
+assistance to switch something of order {{Order Number}},ORDER,change_order,switch_account,change_order,medium,0.85,2626,27
+editing information on freemium account,ACCOUNT,edit_account,edit_account,edit_account,low,0.93,2617,27
+would it be possible to sign up to the newsletter?,SUBSCRIPTION,newsletter_subscription,create_account,newsletter_subscription,low,0.95,2625,31
+new premium account for wife,ACCOUNT,create_account,unknown,create_account,low,0.9,2616,26
+I don't know what to do to switch to the {{Account Category}} account,ACCOUNT,switch_account,switch_account,switch_account,low,0.93,2630,27
+how to modify order {{Order Number}}?,ORDER,change_order,change_order,change_order,medium,0.93,2623,27
+wanna notify of an signup issue can uhelp me,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.95,2626,29
+where to see the methods for shipment,DELIVERY,delivery_options,unknown,delivery_options,low,0.9,2619,28
+where do I see when my package is going to arrive?,DELIVERY,delivery_period,delivery_period,track_order,low,0.8,2623,26
+I don't know what to do to order several items,ORDER,place_order,unknown,place_order,low,0.93,2620,26
+i want help downloading invoice #00108,INVOICE,get_invoice,get_invoice,get_invoice,medium,0.9,2621,29
+were to see at what time I can contact customer service?,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.95,2623,30
+i expect a refund of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,get_refund,get_refund,medium,0.85,2637,28
+I call to lodge a consumer reclamation against your company,FEEDBACK,complaint,contact_customer_service,complaint,medium,0.95,2626,27
+how to check the early exit penalties?,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,low,0.95,2620,32
+I want help filing a customer complaint,FEEDBACK,complaint,complaint,complaint,medium,0.95,2620,27
+see in which cases can I ask to be reimbursed,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.9,2625,30
+"I have to see the ETA of the order {{Order Number}}, help me",ORDER,track_order,delivery_period,track_order,medium,0.93,2631,27
+I want help to cancel purchase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2627,29
+assistance to cancel my corporate newsletter subscription,SUBSCRIPTION,newsletter_subscription,cancel_order,newsletter_subscription,low,0.93,2627,31
+checking ETA of order {{Order Number}},ORDER,track_order,delivery_period,track_order,low,0.93,2624,26
+I cannot find anything about the termination penalties,CANCEL,check_cancellation_fee,unknown,check_cancellation_fee,medium,0.9,2623,33
+where to get my damn bills from {{Person Name}}?,INVOICE,get_invoice,check_invoice,get_invoice,medium,0.9,2627,29
+I do not know what to do to cancel purchase {{Order Number}},ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2631,29
+what time can I reach customer support?,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.95,2619,30
+I need support trying to edit my shipping address,SHIPPING,change_shipping_address,edit_account,change_shipping_address,medium,0.9,2622,31
+I need assistance acquiring a product,ORDER,place_order,unknown,place_order,low,0.7,2620,26
+"I want to use the pro profile, can I get some help?",ACCOUNT,switch_account,edit_account,switch_account,medium,0.9,2625,28
+"I have got to locate order {{Order Number}}, can I get some help?",ORDER,track_order,unknown,track_order,medium,0.93,2631,27
+want help closing a {{Account Category}} account,ACCOUNT,delete_account,unknown,delete_account,medium,0.96,2623,28
+update information on freemium account,ACCOUNT,edit_account,unknown,edit_account,low,0.93,2616,27
+"I have to use the premium profile, how to do it?",ACCOUNT,switch_account,edit_account,switch_account,medium,0.93,2624,28
+i have to enter  a different shipping address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.8,2621,33
+help me to unsubscribe to the corporate newsletter,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.97,2627,31
+is it possible to order from {{Delivery City}}?,DELIVERY,delivery_options,unknown,place_order,low,0.8,2626,26
+i havent signed up yet help me creatin a customer profile,ACCOUNT,create_account,edit_account,create_account,medium,0.95,2627,27
+i need infrmation about the cancellation of my {{Account Type}} account,ACCOUNT,delete_account,cancel_order,delete_account,medium,0.85,2632,28
+i dont know what to do  to download bill #85632,INVOICE,get_invoice,get_invoice,get_invoice,low,0.9,2624,28
+I do not know how to change to the standard account,ACCOUNT,switch_account,switch_account,switch_account,low,0.93,2621,27
+help me see how soon can I expect the package,DELIVERY,delivery_period,delivery_period,delivery_period,low,0.9,2621,28
+"I expect a fucking ocmpensation of {{Currency Symbol}}{{Refund Amount}}, was it processed",REFUND,track_refund,get_refund,track_refund,high,0.85,2649,27
+how do I use the {{Account Category}} profile?,ACCOUNT,switch_account,edit_account,switch_account,low,0.9,2625,27
+help getting my invoice #37777,INVOICE,get_invoice,check_invoice,check_invoice,medium,0.8,2619,29
+is it possible to notify of an error with payment,PAYMENT,payment_issue,payment_issue,payment_issue,medium,0.9,2622,29
+modifying info on {{Account Type}} account,ACCOUNT,edit_account,unknown,edit_account,low,0.93,2623,27
+I have to open a premium account,ACCOUNT,create_account,unknown,create_account,medium,0.95,2617,27
+I odn't know how I could speak to customer support,CONTACT,contact_customer_service,contact_customer_service,contact_human_agent,medium,0.9,2623,31
+there are errors trying to correct my address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.82,2620,31
+I need information about the deletion of my {{Account Type}} account,ACCOUNT,delete_account,unknown,delete_account,low,0.95,2628,27
+notifying of errors creating profile,ACCOUNT,registration_problems,edit_account,registration_problems,medium,0.93,2619,29
+have problems with creating my standard account,ACCOUNT,create_account,unknown,registration_problems,medium,0.8,2619,29
+how could I obtain rebates of money?,REFUND,get_refund,unknown,get_refund,low,0.93,2621,27
+i want help to see when will my packag arrive,DELIVERY,delivery_period,delivery_period,delivery_period,low,0.95,2622,28
+"I need to see the payment options, can you help me?",PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.97,2623,30
+"I chose a wrong delivery address, can you help me update it?",SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.97,2628,31
+i want assistance to reset my profile password,ACCOUNT,recover_password,recover_password,recover_password,medium,0.95,2621,28
+"I have bought some item, I have to cancel order {{Order Number}}",ORDER,cancel_order,cancel_order,cancel_order,medium,0.95,2631,29
+i try to submit my shipping address,SHIPPING,set_up_shipping_address,unknown,set_up_shipping_address,medium,0.85,2619,33
+I'm waiting for a refund of {{Refund Amount}} dollrs,REFUND,track_refund,get_refund,track_refund,medium,0.8,2634,28
+i chose a wfong fucking address i wanna correct it,SHIPPING,change_shipping_address,unknown,change_shipping_address,high,0.93,2627,30
+I want assistance to submit my feedback for a product,FEEDBACK,review,review,review,low,0.93,2624,24
+find bill #85632,INVOICE,check_invoice,check_invoice,check_invoice,low,0.9,2615,28
+I want assisrance to open a {{Account Category}} account,ACCOUNT,create_account,unknown,create_account,medium,0.95,2627,27
+can I delete some articles from order {{Order Number}}?,ORDER,change_order,delete_account,change_order,medium,0.9,2627,27
+do you have a method to submit a review for your products?,FEEDBACK,review,review,review,low,0.96,2623,24
+I am looking for information about the shipping period,DELIVERY,delivery_period,unknown,delivery_period,low,0.9,2621,28
+need help leaving a comment about your services,FEEDBACK,review,review,review,low,0.92,2620,24
+"I have to acquire a few of your article, can you help me?",ORDER,place_order,unknown,place_order,low,0.95,2626,26
+wanna take an quick look at my bill #12588,INVOICE,check_invoice,check_invoice,check_invoice,low,0.93,2624,28
+i need assistance to subwcribe to ur newsletter,SUBSCRIPTION,newsletter_subscription,newsletter_subscription,newsletter_subscription,low,0.97,2627,31
+tracking order {{Order Number}},ORDER,track_order,track_order,track_order,low,0.97,2621,26
+help trying to edit the deliveyr address,SHIPPING,change_shipping_address,edit_account,change_shipping_address,medium,0.93,2622,31
+I don't know how I can report an issue with online payment,PAYMENT,payment_issue,unknown,payment_issue,medium,0.9,2624,29
+I want help to see how long it takes for the order to arrive,DELIVERY,delivery_period,delivery_period,delivery_period,low,0.93,2626,28
+can ya help me to see what shipment options i have,DELIVERY,delivery_options,unknown,delivery_options,low,0.97,2623,28
+"I bought some item, cancel purchase {{Order Number}}",ORDER,cancel_order,cancel_order,cancel_order,medium,0.97,2629,29
+can ya help me demand a rebate of money,REFUND,get_refund,unknown,get_refund,medium,0.93,2622,28
+check invoice from {{Person Name}},INVOICE,check_invoice,check_invoice,get_invoice,low,0.8,2622,28
+i need assistance restoring the key of my profile,ACCOUNT,recover_password,edit_account,recover_password,medium,0.9,2623,28
+modify info on {{Account Type}} account,ACCOUNT,edit_account,unknown,edit_account,low,0.95,2622,27
+I need help to call customer assistance,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,medium,0.9,2619,31
+wanna know more about cancelling the newsletter sjbscription,SUBSCRIPTION,newsletter_subscription,cancel_order,newsletter_subscription,low,0.93,2629,31
+I expect a reimbursement of {{Currency Symbol}}{{Refund Amount}},REFUND,track_refund,get_refund,get_refund,medium,0.85,2640,28
+"my experience with your company was awful, file a complaint",FEEDBACK,complaint,complaint,complaint,high,0.97,2624,26
+i do not know what to do to request a reimbursement of money,REFUND,get_refund,get_refund,get_refund,medium,0.92,2626,28
+assistance to see the ETA of the order {{Order Number}},ORDER,track_order,delivery_period,track_order,low,0.93,2629,26
+help me requesting a bloody compensation,REFUND,get_refund,unknown,get_refund,medium,0.93,2621,28
+d uship to {{Delivery City}},DELIVERY,delivery_options,delivery_options,track_order,medium,0.5,2622,27
+I want information about changing the delivery address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.93,2620,31
+I need help acquiringv several of your item,ORDER,place_order,unknown,place_order,low,0.92,2621,26
+i need assistance trying to update the shipping address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.93,2623,31
+I don't know what to do to change to the {{Account Type}} account,ACCOUNT,switch_account,switch_account,switch_account,low,0.9,2629,27
+"you are not helpful, how to chat with an agent?",CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2625,31
+"I have to set up my shipping address, I need assistance",SHIPPING,set_up_shipping_address,set_up_shipping_address,set_up_shipping_address,medium,0.95,2625,33
+how to speak to a live agent,CONTACT,contact_human_agent,contact_human_agent,contact_human_agent,medium,0.97,2618,31
+how do I check if there are any updates on my refund?,REFUND,track_refund,get_refund,track_refund,medium,0.95,2624,28
+I want assistance switching to the standard account,ACCOUNT,switch_account,switch_account,switch_account,low,0.95,2621,27
+I can't talk with an assistant,CONTACT,contact_human_agent,unknown,contact_human_agent,medium,0.95,2619,31
+can i check at what time i can reach customer support,CONTACT,contact_customer_service,contact_customer_service,contact_customer_service,low,0.95,2622,30
+I need help to check the early termination fee,CANCEL,check_cancellation_fee,check_cancellation_fee,check_cancellation_fee,low,0.95,2620,32
+I cannot switch to the standard account,ACCOUNT,switch_account,switch_account,switch_account,medium,0.9,2620,28
+I need information about correcting the address,SHIPPING,change_shipping_address,unknown,change_shipping_address,medium,0.9,2618,31
+how do I inform of a trouble with payments?,PAYMENT,payment_issue,unknown,payment_issue,medium,0.93,2623,29
+what are the available methods for shipment?,DELIVERY,delivery_options,unknown,delivery_options,low,0.95,2620,28
+I want information aboujt shipping periods,DELIVERY,delivery_period,unknown,delivery_period,low,0.9,2621,28
+want help to update purchase {{Order Number}},ORDER,change_order,place_order,change_order,medium,0.9,2624,27
+how do i demand refunds of my money,REFUND,get_refund,get_refund,get_refund,medium,0.93,2620,28
+what do I have to do to switch to the freemium account?,ACCOUNT,switch_account,switch_account,switch_account,low,0.93,2625,27
+can uhelp me to talk to customer assistance,CONTACT,contact_customer_service,unknown,contact_human_agent,medium,0.8,2624,31
+edit info on {{Account Category}} account,ACCOUNT,edit_account,edit_account,edit_account,low,0.93,2622,27
+I try to set up the ddelivery address,SHIPPING,set_up_shipping_address,set_up_shipping_address,set_up_shipping_address,medium,0.9,2621,33
+where can I get information about opening a {{Account Type}} account?,ACCOUNT,create_account,unknown,create_account,low,0.92,2628,26
+I want to recover the pass of my user account,ACCOUNT,recover_password,unknown,recover_password,medium,0.97,2621,28
+want help to get my invoices from {{Person Name}},INVOICE,get_invoice,get_invoice,get_invoice,medium,0.93,2626,29
+i dont know how to inform od an error with signup,ACCOUNT,registration_problems,registration_problems,registration_problems,medium,0.93,2623,29
+how to inform of payment errors?,PAYMENT,payment_issue,unknown,payment_issue,medium,0.93,2619,29
+show me how long it usually takes for my product to arrive,DELIVERY,delivery_period,delivery_period,delivery_period,low,0.95,2625,28
+where to receive a restitution of money?,REFUND,get_refund,unknown,get_refund,low,0.85,2620,27
+I need to make a complaint,FEEDBACK,complaint,complaint,complaint,medium,0.9,2617,27
+assistance checking in what cases can I request a refund,REFUND,check_refund_policy,get_refund,check_refund_policy,low,0.93,2624,30
+where to lodge a customer reclamation?,FEEDBACK,complaint,unknown,complaint,low,0.9,2622,26
+i cant pay help informing of issues with payment,PAYMENT,payment_issue,unknown,payment_issue,high,0.95,2623,28
+where to see what payment options are available?,PAYMENT,check_payment_methods,check_payment_methods,check_payment_methods,low,0.95,2619,30
+can unelp me shop a few of ur article,ORDER,place_order,unknown,place_order,low,0.93,2622,26
+looking for bill #37777,INVOICE,check_invoice,check_invoice,check_invoice,low,0.93,2617,28
+changkng to standard account,ACCOUNT,switch_account,unknown,switch_account,low,0.9,2616,27

@@ -1,0 +1,31 @@
+question,A_correct,B_correct
+How many orders are there in total?,True,True
+How many stores are in Bengaluru?,True,True
+How many riders use an EV?,True,True
+What is the average order amount?,True,True
+How many orders were cancelled?,True,True
+What is the highest single order amount?,True,True
+How many orders were placed in October 2026?,True,True
+How many different customers have placed an order?,True,True
+What is the total delivered order value (GMV)?,True,True
+How many riders joined in 2026?,True,True
+How many orders did each city get? Show city and order count.,True,True
+What percentage of riders in each city use EVs?,True,True
+What is the MDND rate (as a %) overall?,False,True
+"Which 5 stores had the most orders? Show store_id and order count. If tied, the lower store_id comes first.",True,True
+What is the average order amount by zone in Mumbai?,True,True
+How many orders did EV riders deliver compared to Petrol riders? Count delivered orders by vehicle type.,True,True
+Which city has the highest cancellation rate? Show the city and the rate as a %.,True,True
+How many orders were placed on each day of the week? Use SQLite day numbers 0 (Sunday) to 6.,False,False
+What is the average number of items per order for orders above Rs 1000?,True,True
+"Which 3 riders delivered the most orders? Show rider_id and delivered count. If tied, the lower rider_id comes first.",True,True
+What % of delivered orders were late? Late means delivery took longer than promised_minutes.,True,True
+What is the late delivery % for EV riders vs Petrol riders?,False,True
+"Which 5 stores have the highest late delivery %? Show store_id and the %. If tied, the lower store_id comes first.",False,True
+"What is the average delivery time in minutes for delivered orders, by city?",True,True
+How many orders were placed each week? Use strftime('%W') week numbers.,True,True
+"For each city, which store had the most orders? Show city, store_id and order count.",True,True
+How many customers placed more than 4 orders?,True,True
+What is the daily order count in Delhi for the first 7 days of October 2026?,True,True
+"What share of total GMV (delivered orders only) does each city contribute, as a %?",True,True
+How many riders delivered fewer than 15 orders (including riders with none)?,True,True
